@@ -1,0 +1,3 @@
+[submodule "differentiable_volumetric_rendering"]
+	path = differentiable_volumetric_rendering
+	url = https://github.com/autonomousvision/differentiable_volumetric_rendering.git
