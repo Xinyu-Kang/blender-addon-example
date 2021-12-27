@@ -49,4 +49,7 @@ For example, you can select the `differentiable_volumetric_rendering/media/demo/
 
 <img width="674" alt="image" src="https://user-images.githubusercontent.com/93342727/147513360-a4e47341-6dd3-486c-a0ef-e7df1475ec29.png">
 
-  
+After it finishes, select `Vertx` to view the vertex colors.
+
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/93342727/147513622-ed0b83f5-95bf-4fac-9090-a471bbfff5f7.png">
+
