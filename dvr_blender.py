@@ -14,7 +14,7 @@ from bpy.props import StringProperty, BoolProperty
 from bpy_extras.io_utils import ImportHelper
 from bpy.types import Operator
 
-ABS_PATH = "C:/Users/Local_Admin/3D_Gen/differentiable_volumetric_rendering/"
+ABS_PATH = "<some path>/differentiable_volumetric_rendering/" # replace with your path
 
 class DVR(Operator):
 
