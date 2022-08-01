@@ -20,7 +20,7 @@ Inside the `DVR` derectory, move `dvr_blender_addon.py` into the `differentiable
 Then go to the `differentiable_volumetric_rendering` folder and follow the [installation](https://github.com/autonomousvision/differentiable_volumetric_rendering#installation) instructions to set up.
 
 Suppose your absolute path to the `differentiable_volumetric_rendering` folder is `<some path>/differentiable_volumetric_rendering/`. Edit some lines of code to ensure Blender can find the correct paths:
-1. In `dvr_blender_addon.py`, replace line 18 with your absolute path.
+1. In `dvr_blender_addon.py`, replace line 3 with the Blender version you are working with and replace line 18 with your absolute path.
 2. In `generate.py`, add the following code after line 43:
     ```python
     abs_path = "<some path>/differentiable_volumetric_rendering/" # replace your path here
