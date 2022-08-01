@@ -1,4 +1,16 @@
 # DVR Blender Add-on Instructions
+
+## Setting up Blender
+Blender's built-in Python does not have the `yaml` library. We need to install it manually.
+
+First, open the command prompt and navigate to the folder with Blender's `python.exe` file. 
+(For me, it's in `C:\Program Files\Blender Foundation\Blender 3.1\3.1\python\bin`.) Then, run the following command:
+```
+python -m pip install pyyaml
+```
+
+## Installing the Add-on
+
 First, you can clone this repository to your locall machine using
 ```
 git clone --recursive https://github.com/Creativity-AI-POC-PTL/DVR.git
@@ -32,7 +44,9 @@ Suppose your absolute path to the `differentiable_volumetric_rendering` folder i
     if default_path is not None and not default_path.startswith(abs_path):
         default_path = abs_path + default_path
     ``` 
-    
+
+## Running the Add-on
+
 Now you are ready to install DVR in Blender. Open Blender and go to `Edit -> Preferences -> Add-ons`.
 
 <img width="692" alt="image" src="https://user-images.githubusercontent.com/93342727/147512848-474d705b-90d2-4a1e-89e1-cb8d5a1a5230.png">
@@ -48,4 +62,8 @@ Next you can run DVR directly in Blender. Go to `Add -> Run DVR`, and then selec
 For example, you can select the `differentiable_volumetric_rendering/media/demo/choy_renderings` folder. Make sure that you are selecting a folder instead of a file.
 
 <img width="674" alt="image" src="https://user-images.githubusercontent.com/93342727/147513360-a4e47341-6dd3-486c-a0ef-e7df1475ec29.png">
+
+Use the "Material Preview" shading to see the materials.
+
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/93342727/182256800-7ae4da8e-b23e-4607-b29c-79c2d7d9c8a2.png">
 
